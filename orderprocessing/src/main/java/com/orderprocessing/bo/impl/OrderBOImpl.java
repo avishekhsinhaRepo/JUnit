@@ -41,9 +41,7 @@ public class OrderBOImpl implements OrderBO {
 		return false;
 	}
 
-	public OrderDAO getOrderDAO() {
-		return orderDAO;
-	}
+	
 
 	public void setOrderDAO(OrderDAO orderDAO) {
 		this.orderDAO = orderDAO;
